@@ -4,9 +4,8 @@ a = Airium()
 #define variables
 date = ''
 cont = ''
-date2 = ''
-cont2 = ''
 
+#write data to html with Airium
 with open('data.txt') as file:
     cnt = 0
     for line in file:
